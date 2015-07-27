@@ -11,4 +11,4 @@ def hello():
     return '<pre>{}</pre>'.format(c)
 
 if __name__ == '__main__':
-    app.run()    
+    app.run(host='0.0.0.0')    
